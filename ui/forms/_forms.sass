@@ -8,9 +8,9 @@ input[type="url"],
 input[type="password"],
 textarea,
 select
-    height: 38px
+    height: $form-height
     // The 6px vertically centers text on FF, ignored by Webkit
-    padding: 6px 10px
+    padding: $form-padding
     background-color: #fff
     border: 1px solid $form-border
     border-radius: $border-radius
@@ -29,9 +29,7 @@ textarea
     -moz-appearance: none
     appearance: none
 textarea
-    min-height: 65px
-    padding-top: 6px
-    padding-bottom: 6px
+    min-height: $textarea-height
 input[type="email"]:focus,
 input[type="number"]:focus,
 input[type="search"]:focus,
