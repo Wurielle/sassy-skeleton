@@ -1,17 +1,12 @@
 // Colors-----------------------------------------------------------------------
 $primary-color: #33C3F0
-$link-color: #1EAEDB
-$link-color-darken: #0FA0CE
+$primary-color-hover: darken($primary-color, 10% )
 $font-color-dark: #222
 $font-color: #333
 $font-color-light: #555
-
-$code-bg: #F1F1F1
-
-$border-color: #888
-$border-color-light: #bbb
-$code-border: #E1E1E1
-$form-border: #D1D1D1
+$border-color: #E1E1E1
+$border-color-hover: darken($border-color, 10%)
+$background-color: #F1F1F1
 
 // Typography ------------------------------------------------------------------
 @import "https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900"
@@ -22,6 +17,7 @@ $font-size: 1.5em
 $line-height: 1.6
 $font-weight: 400
 
+$font-margin-h: 0 0 2rem 0
 $font-weight-h: 300
 
 $font-size-h1: 4.0rem
@@ -53,16 +49,34 @@ $button-font-weight: 600
 $button-letter-spacing: 0.1rem
 
 // Code ------------------------------------------------------------------------
-$code-height: 38px
 $code-padding: .2rem .5rem
 $code-margin: 0 .2rem
 $code-font-size: 90%
-$pre-code-margin: 1rem 1.5rem
+$pre-code-padding: 1rem 1.5rem
 
-// Code ------------------------------------------------------------------------
+// Form ------------------------------------------------------------------------
 $form-height: 38px
 $form-padding: 6px 10px
 $textarea-height: 65px
+$legend-label-margin: 0 0 .5rem 0
+$legend-label-font-weight: 600
+$label-body-margin: 0 0 .5rem .5rem
+
+// Lists -----------------------------------------------------------------------
+$li-margin: 0 0 1rem 0
+$nested-list-margin: 1.5rem 0 1.5rem 3rem
+$nested-list-font-size: 90%
+
+// Spacing ---------------------------------------------------------------------
+$spacing-button-margin: 0 0 1rem 0
+$spacing-input-margin: 0 0 1.5rem 0
+$spacing-misc-margin: 0 0 2.5rem 0
+
+// Tables ----------------------------------------------------------------------
+$tables-td-padding: 12px 15px
 
 // Misc ------------------------------------------------------------------------
 $border-radius: 4px
+$border-style: 1px solid
+
+$hr-margin: 3rem 0 3.5rem 0

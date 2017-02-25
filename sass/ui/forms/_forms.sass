@@ -12,7 +12,7 @@ select
     // The 6px vertically centers text on FF, ignored by Webkit
     padding: $form-padding
     background-color: #fff
-    border: 1px solid $form-border
+    border: $border-style $border-color
     border-radius: $border-radius
     box-shadow: none
     box-sizing: border-box
@@ -39,13 +39,13 @@ input[type="url"]:focus,
 input[type="password"]:focus,
 textarea:focus,
 select:focus
-    border: 1px solid $primary-color
+    border: $border-style $primary-color
     outline: 0
 label,
 legend
     display: block
-    margin-bottom: .5rem
-    font-weight: 600
+    margin: $legend-label-margin
+    font-weight: $legend-label-font-weight
 fieldset
     padding: 0
     border-width: 0
@@ -54,5 +54,5 @@ input[type="radio"]
     display: inline
 label > .label-body
     display: inline-block
-    margin-left: .5rem
+    margin: $label-body-margin
     font-weight: normal

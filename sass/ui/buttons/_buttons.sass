@@ -7,7 +7,7 @@ input[type="button"]
     display: inline-block
     height: $button-height
     padding: $button-padding
-    color: $font-color-light
+    color: $font-color
     text-align: center
     font-size: $button-font-size
     font-weight: $button-font-weight
@@ -18,7 +18,7 @@ input[type="button"]
     white-space: nowrap
     background-color: transparent
     border-radius: $border-radius
-    border: 1px solid $border-color-light
+    border: $border-style $border-color
     cursor: pointer
     box-sizing: border-box
 .button:hover,
@@ -31,8 +31,8 @@ button:focus,
 input[type="submit"]:focus,
 input[type="reset"]:focus,
 input[type="button"]:focus
-    color: $font-color
-    border-color: $border-color
+    color: $font-color-dark
+    border-color: $border-color-hover
     outline: 0
 .button.button-primary,
 button.button-primary,
@@ -53,5 +53,5 @@ input[type="submit"].button-primary:focus,
 input[type="reset"].button-primary:focus,
 input[type="button"].button-primary:focus
     color: #FFF
-    background-color: $link-color
-    border-color: $link-color
+    background-color: $primary-color-hover
+    border-color: $primary-color-hover
