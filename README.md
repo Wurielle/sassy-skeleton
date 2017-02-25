@@ -1,5 +1,5 @@
 # [Sassy-Skeleton](http://noahfenghom.com/sassy-skeleton)
-Sassy Skeleton is an unofficial SASS (and not SCSS)  version of [Dave Gamache's] Skeleton Framework. It currently features a stable version of Skeleton 2.0.4
+Sassy Skeleton is an unofficial SASS (and not SCSS)  version of [Dave Gamache's](https://twitter.com/dhg) Skeleton Framework. It currently features a stable version of Skeleton 2.0.4
 
 Check out <http://getskeleton.com> for the original documentation and details.
 
