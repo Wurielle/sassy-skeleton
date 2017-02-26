@@ -19,7 +19,7 @@ Or simply:
 sass --watch path/to/directory/sass:path/to/directory/css
 ```
 
-In this case for exemple:
+e.g. in this case:
 
 ```
 sass --watch sass:export
@@ -31,7 +31,7 @@ sass --watch sass:export
 compass init
 ```
 
-Edit your config.rb (here's mine for exemple):
+Edit your config.rb (e.g. here's mine):
 
 ```
 require 'compass/import-once/activate'
