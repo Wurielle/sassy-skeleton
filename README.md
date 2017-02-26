@@ -1,15 +1,81 @@
 # [Sassy-Skeleton](http://noahfenghom.com/sassy-skeleton)
+
 Sassy Skeleton is an unofficial SASS (and not SCSS)  version of [Dave Gamache's](https://twitter.com/dhg) Skeleton Framework. It currently features a stable version of Skeleton 2.0.4.
 
 Check out <http://getskeleton.com> for the original documentation and details.
 
 ## Getting started
 
-TODO
+Compiling SASS:
+- using SASS:
+
+```
+sass path/to/file/input.sass path/to/file/output.css
+```
+
+Or simply:
+
+```
+sass --watch path/to/directory/sass:path/to/directory/css
+```
+
+In this case for exemple:
+
+```
+sass --watch sass:export
+```
+
+- using COMPASS:
+
+```
+compass init
+```
+
+Edit your config.rb (here's mine for exemple):
+
+```
+require 'compass/import-once/activate'
+# Require any additional compass plugins here.
+
+# Set this to the root of your project when deployed:
+http_path = "/"
+css_dir = "export"
+sass_dir = "sass"
+
+# You can select your preferred output style here (can be overridden via the command line):
+# output_style = :expanded or :nested or :compact or :compressed
+
+# To enable relative paths to assets via compass helper functions. Uncomment:
+relative_assets = true
+
+# To disable debugging comments that display the original location of your selectors. Uncomment:
+# line_comments = false
+
+
+# If you prefer the indented syntax, you might want to regenerate this
+# project again passing --syntax sass, or you can uncomment this:
+# preferred_syntax = :sass
+# and then run:
+# sass-convert -R --from scss --to sass sass scss && rm -rf sass && mv scss sass
+
+```
+
+Now compile:
+
+```
+compass compile
+```
+
+Or watch:
+
+```
+compass watch
+```
+
 
 ### What's in the download?
 
-The download includes Sassy Skeleton's SASS, Skeleton's CSS (2.0.4), Normalize CSS as a reset, ~~a sample favicon,~~ and an index.html as a starting point.
+The download includes Sassy Skeleton's SASS, Skeleton's CSS (2.0.4), Normalize CSS as a reset, ~~a sample favicon,~~ and an index.html as a ~~starting point~~ demo presentation.
 
 ```
 Sassy-Skeleton/
@@ -58,12 +124,13 @@ Sassy-Skeleton/
 
 ```
 
+
 ### Why it's awesome
 
 Skeleton is lightweight and simple. It styles only raw HTML elements (with a few exceptions) and provides a responsive grid. Nothing more.
-- Around 400 lines of CSS unminified and with comments (TODO)
+- ~~Around 400 lines~~ Segmented files of SASS unminified and with comments
 - It's a starting point, not a UI framework
-- No compiling or installing...just vanilla CSS (TODO)
+- ~~No compiling or installing...just vanilla CSS~~ Requires a Sass compiler (see Getting started)
 
 
 ## Browser support
