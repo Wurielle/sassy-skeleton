@@ -2,9 +2,9 @@
 .container
     position: relative
     width: 100%
-    max-width: 960px
+    max-width: $bp-md
     margin: 0 auto
-    padding: 0 20px
+    padding: 0 $gutter-width
     box-sizing: border-box
 .column,
 .columns
@@ -12,15 +12,15 @@
     float: left
     box-sizing: border-box
 
-// For devices larger than 400px
-@media (min-width: 400px)
+// For devices larger than $bp-xxs
+@media (min-width: $bp-xxs)
     .container
         width: 85%
         padding: 0
 
 
-// For devices larger than 550px
-@media (min-width: 550px)
+// For devices larger than $bp-xs
+@media (min-width: $bp-xs)
     .container
         width: 80%
     .column,

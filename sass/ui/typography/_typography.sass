@@ -28,20 +28,19 @@ h6
     letter-spacing: $letter-spacing-h6
 
 /* Larger than phablet */
-@media (min-width: 550px)
-    h1
-        font-size: 5.0rem
-    h2
-        font-size: 4.2rem
-    h3
-        font-size: 3.6rem
-    h4
-        font-size: 3.0rem
-    h5
-        font-size: 2.4rem
-    h6
-        font-size: 1.5rem
-
-
+@if $enable-min-xs-h == true
+    @media (min-width: $bp-xs)
+        h1
+            font-size: $min-xs-h1
+        h2
+            font-size: $min-xs-h2
+        h3
+            font-size: $min-xs-h3
+        h4
+            font-size: $min-xs-h4
+        h5
+            font-size: $min-xs-h5
+        h6
+            font-size: $min-xs-h6
 p
     margin-top: 0

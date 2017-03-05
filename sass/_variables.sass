@@ -1,3 +1,14 @@
+// Grid ------------------------------------------------------------------------
+// Breakpoints
+$bp-xxs: 400px
+$bp-xs: 550px
+$bp-sm: 750px
+$bp-md: 1000px
+$bp-lg: 1200px
+
+//gutters
+$gutter-width: 20px
+
 // Colors-----------------------------------------------------------------------
 $primary-color: #33C3F0
 $primary-color-hover: darken($primary-color, 10% )
@@ -41,12 +52,30 @@ $letter-spacing-h4: -.08rem
 $letter-spacing-h5: -.05rem
 $letter-spacing-h6: 0
 
+// For devices larger than $bp-xs
+$enable-min-xs-h: true // Enables following h font-sizes for (min-width: $bp-xs)
+
+$min-xs-h1: 5.0rem
+$min-xs-h2: 4.2rem
+$min-xs-h3: 3.6rem
+$min-xs-h4: 3.0rem
+$min-xs-h5: 2.4rem
+$min-xs-h6: 1.5rem
+
+// Lists -----------------------------------------------------------------------
+$li-margin: 0 0 1rem 0
+$nested-list-margin: 1.5rem 0 1.5rem 3rem
+$nested-list-font-size: 90%
+
 // Buttons ---------------------------------------------------------------------
 $button-height: 38px
 $button-padding: 0 30px
 $button-font-size: 1.1rem
 $button-font-weight: 600
 $button-letter-spacing: 0.1rem
+
+// Tables ----------------------------------------------------------------------
+$tables-td-padding: 12px 15px
 
 // Code ------------------------------------------------------------------------
 $code-padding: .2rem .5rem
@@ -62,18 +91,10 @@ $legend-label-margin: 0 0 .5rem 0
 $legend-label-font-weight: 600
 $label-body-margin: 0 0 .5rem .5rem
 
-// Lists -----------------------------------------------------------------------
-$li-margin: 0 0 1rem 0
-$nested-list-margin: 1.5rem 0 1.5rem 3rem
-$nested-list-font-size: 90%
-
 // Spacing ---------------------------------------------------------------------
 $spacing-button-margin: 0 0 1rem 0
 $spacing-input-margin: 0 0 1.5rem 0
 $spacing-misc-margin: 0 0 2.5rem 0
-
-// Tables ----------------------------------------------------------------------
-$tables-td-padding: 12px 15px
 
 // Misc ------------------------------------------------------------------------
 $border-radius: 4px
