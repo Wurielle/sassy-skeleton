@@ -17,3 +17,28 @@ ul,
 ol,
 form
     margin: $spacing-misc-margin
+
+.vspacing
+    margin: $vspacing
+@media (min-width: $bp-xs)
+    .xs-vspacing
+        margin: $xs-vspacing
+    .xs-vspacing
+        margin: 0
+@media (min-width: $bp-sm)
+    .sm-vspacing
+        margin: $sm-vspacing
+    .sm-novspacing
+        margin: 0
+
+@media (min-width: $bp-md)
+    .md-vspacing
+        margin: $md-vspacing
+    .md-novspacing
+        margin: 0
+
+@media (min-width: $bp-xs)
+    .lg-vspacing
+        margin: $lg-vspacing
+    .lg-novspacing
+        margin: 0

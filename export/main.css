@@ -441,7 +441,7 @@ th {
 .container {
   position: relative;
   width: 100%;
-  max-width: 1000px;
+  max-width: 960px;
   margin: 0 auto;
   padding: 0 20px;
   box-sizing: border-box;
@@ -455,14 +455,7 @@ th {
   box-sizing: border-box;
 }
 
-@media (min-width: 400px) {
-  /* line 17, ../sass/ui/grid/_grid.sass */
-  .container {
-    width: 85%;
-    padding: 0;
-  }
-}
-@media (min-width: 550px) {
+@media (min-width: 480px) {
   /* line 24, ../sass/ui/grid/_grid.sass */
   .container {
     width: 80%;
@@ -705,7 +698,7 @@ h6 {
 }
 
 /* Larger than phablet */
-@media (min-width: 550px) {
+@media (min-width: 480px) {
   /* line 33, ../sass/ui/typography/_typography.sass */
   h1 {
     font-size: 5rem;
@@ -993,6 +986,55 @@ form {
   margin: 0 0 2.5rem 0;
 }
 
+/* line 21, ../sass/ui/spacing/_spacing.sass */
+.vspacing {
+  margin: 0 0 40px 0;
+}
+
+@media (min-width: 480px) {
+  /* line 24, ../sass/ui/spacing/_spacing.sass */
+  .xs-vspacing {
+    margin: 0 0 40px 0;
+  }
+
+  /* line 26, ../sass/ui/spacing/_spacing.sass */
+  .xs-vspacing {
+    margin: 0;
+  }
+}
+@media (min-width: 768px) {
+  /* line 29, ../sass/ui/spacing/_spacing.sass */
+  .sm-vspacing {
+    margin: 0 0 40px 0;
+  }
+
+  /* line 31, ../sass/ui/spacing/_spacing.sass */
+  .sm-novspacing {
+    margin: 0;
+  }
+}
+@media (min-width: 960px) {
+  /* line 35, ../sass/ui/spacing/_spacing.sass */
+  .md-vspacing {
+    margin: 0 0 40px 0;
+  }
+
+  /* line 37, ../sass/ui/spacing/_spacing.sass */
+  .md-novspacing {
+    margin: 0;
+  }
+}
+@media (min-width: 480px) {
+  /* line 41, ../sass/ui/spacing/_spacing.sass */
+  .lg-vspacing {
+    margin: 0 0 40px 0;
+  }
+
+  /* line 43, ../sass/ui/spacing/_spacing.sass */
+  .lg-novspacing {
+    margin: 0;
+  }
+}
 /* line 2, ../sass/ui/utilities/_utilities.sass */
 .u-full-width {
   width: 100%;
@@ -1031,7 +1073,6 @@ hr {
   clear: both;
 }
 
-/* Larger than mobile */
 /* Larger than phablet (also point when grid becomes active) */
 /* Larger than tablet */
 /* Larger than desktop */
