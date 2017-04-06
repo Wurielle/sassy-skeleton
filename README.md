@@ -92,35 +92,21 @@ Sassy-Skeleton/
     ├── _variables.sass
     ├── main.sass
     └── ui/
-        ├── base/
-        │    └── _base.sass
-        ├── buttons/
-        │    └── _buttons.sass
-        ├── clearing/
-        │    └── _clearing.sass
-        ├── code/
-        │    └── _code.sass
-        ├── forms/
-        │    └── _forms.sass
-        ├── grid/
-        │    └── _grid.sass
-        ├── links/
-        │    └── _links.sass
-        ├── lists/
-        │    └── _lists.sass
-        ├── misc/
-        │    └── _misc.sass
-        ├── mq/
-        │    └── _mq.sass
-        ├── spacing/
-        │    └── _spacing.sass
-        ├── tables/
-        │    └── _tables.sass
-        ├── typography/
-        │    └── _typography.sass
-        ├── utilities/
-        │    └── _utilities.sass
-        └── _ui.sass
+        ├──_all.sass
+        ├──_base.sass
+        ├──_buttons.sass
+        ├──_clearing.sass
+        ├──_code.sass
+        ├──_forms.sass
+        ├──_grid.sass
+        ├──_links.sass
+        ├──_lists.sass
+        ├──_misc.sass
+        ├──_mq.sass
+        ├──_spacing.sass
+        ├──_tables.sass
+        ├──_typography.sass
+        └──_utilities.sass
 
 ```
 
