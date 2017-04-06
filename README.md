@@ -1,13 +1,13 @@
 # [Sassy-Skeleton](http://noahfenghom.com/sassy-skeleton)
 
-Sassy Skeleton is an unofficial SASS (and not SCSS)  version of [Dave Gamache's](https://twitter.com/dhg) Skeleton Framework. It currently features a stable version of Skeleton 2.0.4.
+Sassy Skeleton is an unofficial Sass (and not SCSS)  version of [Dave Gamache's](https://twitter.com/dhg) Skeleton Framework. It currently features a stable version of Skeleton 2.0.4.
 
 Check out <http://getskeleton.com> for the original documentation and details.
 
 ## Getting started
 
-Compiling SASS:
-- using SASS:
+Compiling Sass:
+- using Sass:
 
 ```
 sass path/to/file/input.sass path/to/file/output.css
@@ -75,7 +75,7 @@ compass watch
 
 ### What's in the download?
 
-The download includes Sassy Skeleton's SASS, Skeleton's CSS (2.0.4), Normalize CSS as a reset, ~~a sample favicon,~~ and an index.html as a ~~starting point~~ demo presentation.
+The download includes Sassy Skeleton's Sass, Skeleton's CSS (2.0.4), Normalize CSS as a reset, ~~a sample favicon,~~ and an index.html as a ~~starting point~~ demo presentation.
 
 ```
 Sassy-Skeleton/
@@ -114,7 +114,7 @@ Sassy-Skeleton/
 ### Why it's awesome
 
 Skeleton is lightweight and simple. It styles only raw HTML elements (with a few exceptions) and provides a responsive grid. Nothing more.
-- ~~Around 400 lines~~ Segmented files of SASS unminified and with comments
+- ~~Around 400 lines~~ Segmented files of Sass unminified and with comments
 - It's a starting point, not a UI framework
 - ~~No compiling or installing...just vanilla CSS~~ Requires a Sass compiler (see Getting started)
 
